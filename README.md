@@ -48,7 +48,7 @@ On Windows, start the worker with `celery -A pulsenotify worker --loglevel=info 
 | DELETE | `/api/alerts/<id>/` | JWT |
 | GET | `/api/flights/price/?route=DEL-BOM` | none (internal mock feed) |
 | GET | `/api/admin/summary/` | JWT, admin role only |
-
+attached screen shots *.png for post man requests
 Send the token as `Authorization: Bearer <access>`.
 
 ## Making a user an admin
